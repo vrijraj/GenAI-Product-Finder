@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "google-sans";
+    src: url(assets/fonts/google-font.woff2) format("woff2");
+    font-display: swap;
+}
+
+.ai-font {
+    font-family: "google-sans", Helvetica, Arial, Sans-Serif
+}
+
+/* [Small] Styles for devices with a maximum width of 767px (typical for mobile devices) */
+@media only screen and (max-width: 600px) {
+    .app-content-padding {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .video-camera {
+        width: 100%;
+        max-height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 20px;
+    }
+
+    .cii-heading-2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .developer-font {
+        font-size: 80%;
+        line-height: normal;
+    }
+}
+
+/* [Large Display] Styles for devices with a minimum width of 768px (typical for larger screens) */
+@media only screen and (min-width: 601px) {
+    .app-content-padding {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .video-camera {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 20px;
+    }
+
+    .cii-heading-2 {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .developer-font {
+        font-size: 100%;
+        line-height: normal;
+    }
+}
+
+
+.cii-animation-font {
+    background: linear-gradient(90deg, #9848FC 0%, #DC8855 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-btn {
+    border-radius: 360px;
+    background: linear-gradient(90deg, #D56676 0%, #4B84F0 100%);
+    font-weight: 600;
+    padding: 12px 16px;
+}
+
+.v-btn {
+    text-transform: capitalize;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
