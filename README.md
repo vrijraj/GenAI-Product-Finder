@@ -3,6 +3,8 @@ It's the ultimate utility tool for seamless product discovery while watching vid
 
 It's MVP, but later I can add multiple features like Google My Business to suggest local listings to purchase the product from the nearest region.
 
+Demo: [https://finder.vrijraj.xyz/](https://finder.vrijraj.xyz/)
+
 ## Project setup
 ```
 npm install
